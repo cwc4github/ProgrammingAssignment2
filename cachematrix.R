@@ -3,7 +3,7 @@
 ##    above. If the inverse has already been calculated (and the matrix has not changed), then cacheSolve 
 ##    should retrieve the inverse from the cache.
 
-## makeCacheMatrix: input a matrix, output a list
+## makeCacheMatrix: input a matrix; output a list, which is a special "matrix" object
 
 makeCacheMatrix <- function(x = matrix()) {
   m_inv <- NULL
